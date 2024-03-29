@@ -1,0 +1,15 @@
+﻿<Window x:Class="Praktika_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktika_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Tudak" Content="Табличка 1" HorizontalAlignment="Left" Margin="10,306,0,0" VerticalAlignment="Top" Height="23" Width="250" Background="#FF43CF8D" Click="Tudak_Click"/>
+        <Button x:Name="Sudak" Content="Табличка 2" HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top" Width="250" Height="24" Background="#FF25ABAB" Click="Sudak_Click"/>
+        <Frame x:Name="PageFrame" Content="&#xD;&#xA;" HorizontalAlignment="Center" Height="284" VerticalAlignment="Top" Width="800" NavigationUIVisibility="Hidden"/>
+        <Button x:Name="Tutuak" Content="Табличка 3" HorizontalAlignment="Left" Height="23" Margin="10,363,0,0" VerticalAlignment="Top" Width="250" Background="#FFAF57A7" Click="Tutuak_Click"/>
+    </Grid>
+</Window> 
